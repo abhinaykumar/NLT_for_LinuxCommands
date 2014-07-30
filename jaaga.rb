@@ -1,3 +1,8 @@
+# require 'treat'
+# Treat::Core::Installer.install 'english' to install treat
+
+# p = paragraph('A walk in the park. A trip on a boat.').segment
+# puts p
 
 $:.unshift File.expand_path(File.dirname(__FILE__) + '/')
 require 'lib/name.rb'
@@ -55,24 +60,24 @@ command = anycommand.downcase
     puts "I dont understand this language"
   end
 
-# if words.each do |w|
-#   if w.match("name")
-#     system("whoami")
-#   end
-# end
-# elsif words.each do |w|
-#   if w.match("open") && w.match("browser")
-#     require 'launchy'
-#     Launchy.open("http://stackoverflow.com")
-#   end
-# end
-# end
+# # if words.each do |w|
+# #   if w.match("name")
+# #     system("whoami")
+# #   end
+# # end
+# # elsif words.each do |w|
+# #   if w.match("open") && w.match("browser")
+# #     require 'launchy'
+# #     Launchy.open("http://stackoverflow.com")
+# #   end
+# # end
+# # end
 
 
 
 
-# if command == "what is my name"
-#  system ("whoami")
-# else
-#   puts "I dont understand this language"
-# end
+# # if command == "what is my name"
+# #  system ("whoami")
+# # else
+# #   puts "I dont understand this language"
+# # end
