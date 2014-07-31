@@ -7,7 +7,7 @@
 $:.unshift File.expand_path(File.dirname(__FILE__) + '/')
 require 'lib/name.rb'
 
-puts "Please write something"
+puts "Pass some commands::"
 anycommand = gets.chomp
 command = anycommand.downcase
 # words = command.downcase.split(' ')
